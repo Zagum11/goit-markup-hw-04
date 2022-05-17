@@ -8,18 +8,6 @@
   --secondary-button-color: #f5f4fa;
 }
 
-/* цвет основного текста #212121 */
-
-/* вторичный цвет текста  #757575 */
-
-/* белый цвет  #FFFFFF */
-
-/* акцент #2196F3 */
-
-/* вторичный цвет фона #F5F4FA */
-
-/* цвет герой, футер  #2F303A */
-
 body {
   color: var(--primary-text-color);
   background-color: #fff;
@@ -153,6 +141,10 @@ button {
   text-decoration: none;
 }
 
+.header-icon {
+  margin-right: 10px;
+}
+
 .contacts .item + .item {
   margin-left: 50px;
 }
@@ -164,18 +156,25 @@ button {
 
 /* Герой */
 .hero {
+  max-width: 1600px;
+  height: 600px;
   background-color: var(--hero-footer-bgcolor);
   text-align: center;
   padding-top: 200px;
   padding-bottom: 200px;
+  margin-left: auto;
+  margin-right: auto;
   text-align: center;
+  background-image: url('../images/main-background.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
 .hero-title {
   margin-top: 0;
   margin-bottom: 30px;
   color: var(--white-color);
-  background-color: var(--hero-footer-bgcolor);
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -241,12 +240,23 @@ button {
   margin-right: 0;
 }
 
+.qualities-background {
+  background-color: var(--secondary-bgcolor);
+  width: 270px;
+  height: 120px;
+}
+
+.qualities-icon {
+  width: 70px;
+  height: 70px;
+}
+
 .section.no-padding {
   padding-bottom: 0;
 }
 
 .title-qualities {
-  margin-top: 0;
+  margin-top: 30px;
   margin-bottom: 10px;
   color: var(--primary-text-color);
   background-color: var(--white-color);
@@ -355,6 +365,40 @@ button {
   padding-bottom: 30px;
 }
 
+/* Постоянные клиенты */
+.title-clients {
+  margin-bottom: 50px;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--primary-text-color);
+}
+
+.clients-list {
+  display: flex;
+  text-align: center;
+  padding-left: 0;
+  padding: 0;
+  margin: 0;
+}
+
+.clients-item {
+  margin-right: 30px;
+}
+
+.clients-item:last-child {
+  margin-right: 0;
+}
+
+.group-icon {
+  width: 170px;
+  height: 92px;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+}
+
 /* навигация по сайту */
 .visually-hidden {
   position: absolute;
@@ -454,6 +498,26 @@ img {
   color: var(--white-color);
   text-decoration: none;
 }
+
+.join {
+  margin-right: 70px;
+  display: flex;
+  align-items: center;
+}
+
+.join-list {
+  display: flex;
+  margin-right: 70px
+}
+
+.join-text {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  color: var(--white-color);
+}
+
 
 .address-list {
   padding-left: 0;
