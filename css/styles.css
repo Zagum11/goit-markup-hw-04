@@ -418,6 +418,16 @@ button {
   border-radius: 4px;
 }
 
+.group-icon.current {
+  fill: #757575;
+}
+
+.group-icon:hover {
+  border: 1px solid var(--accent-color);
+  border-radius: 4px;
+  fill: var(--accent-color);
+}
+
 /* навигация по сайту */
 .visually-hidden {
   position: absolute;
