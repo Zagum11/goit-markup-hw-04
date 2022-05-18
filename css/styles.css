@@ -377,11 +377,16 @@ button {
   margin-right: 10px;
 }
 
-.social-icon:hover {
-  background-color: #188ce8;
+.socials-icon:hover {
+  margin-top: 16px;
+  margin-right: 10px;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background-color: var(--accent-color);
+  fill: var(--white-color);
   border-radius: 50px;
-  width: 40px;
-  height: 40px;
 }
 
 /* Постоянные клиенты */
